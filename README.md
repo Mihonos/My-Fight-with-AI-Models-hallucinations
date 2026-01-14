@@ -11,8 +11,9 @@ npm / yarn / pnpm
 Playwright (npm install playwright)
 
 ## To Run This:
-bash
-node advanced-automation.js
+'bash
+
+node advanced-automation.js'
 It will:
 	1. Open GitHub search
 	2. Search for "playwright automation"
