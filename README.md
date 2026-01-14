@@ -11,17 +11,17 @@ npm / yarn / pnpm
 Playwright (npm install playwright)
 
 ## To Run This:
-'bash
+`bash
 
-node advanced-automation.js'
+node advanced-automation.js`  
 It will:
-	1. Open GitHub search
-	2. Search for "playwright automation"
-	3. Extract results from UI
-	4. Capture API calls in background
-	5. Compare frontend data vs backend responses
-	6. Generate a complete test report
-    7. Save screenshot as proof
+	1. Open GitHub search  
+	2. Search for "playwright automation"  
+	3. Extract results from UI  
+	4. Capture API calls in background  
+	5. Compare frontend data vs backend responses  
+	6. Generate a complete test report  
+    7. Save screenshot as proof  
 
 ## Features or What This Script Does:
 
