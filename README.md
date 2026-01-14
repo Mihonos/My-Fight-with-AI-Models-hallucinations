@@ -11,9 +11,9 @@ npm / yarn / pnpm
 Playwright (npm install playwright)  
 
 ## To Run This:
-something `bash`
+`bash`
 
-`node tests/GitHubSearchTest.js` before  
+`node tests/GitHubSearchTest.js`   
 
 It will:  
 	1. Open GitHub search  
@@ -49,12 +49,12 @@ It will:
     • Generates summary of findings  
 
 ## Real-World Use Cases:
-This pattern is used for:  
-• E-commerce testing - Verify prices match between UI and API
-• Form submissions - Check if backend receives correct data
-• Search functionality - Validate search results consistency
-• Payment flows - Ensure transaction data is accurate
-• API contract testing - Verify frontend consumes API correctly
+This pattern is used for:    
+• E-commerce testing - Verify prices match between UI and API  
+• Form submissions - Check if backend receives correct data  
+• Search functionality - Validate search results consistency  
+• Payment flows - Ensure transaction data is accurate  
+• API contract testing - Verify frontend consumes API correctly  
 		
 
 
