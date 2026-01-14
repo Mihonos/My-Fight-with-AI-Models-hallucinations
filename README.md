@@ -11,9 +11,9 @@ npm / yarn / pnpm
 Playwright (npm install playwright)  
 
 ## To Run This:
-``bash
+something `bash`
 
-node advanced-automation.js``  
+`node tests/GitHubSearchTest.js` before  
 
 It will:  
 	1. Open GitHub search  
