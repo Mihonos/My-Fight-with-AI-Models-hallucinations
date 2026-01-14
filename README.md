@@ -48,13 +48,36 @@ It will:
 	• Takes screenshots for evidence  
     • Generates summary of findings  
 
-## Real-World Use Cases:
+## Real-World Use Cases  
 This pattern is used for:    
 • E-commerce testing - Verify prices match between UI and API  
 • Form submissions - Check if backend receives correct data  
 • Search functionality - Validate search results consistency  
 • Payment flows - Ensure transaction data is accurate  
 • API contract testing - Verify frontend consumes API correctly  
+
+## Curiosities 
+My initial prompt to the AI model was to create an advanced automation script that demonstrates both UI manipulation with BE validation, on the website of his choice.   
+Despite the quick response with the complete script and explanation, I had to debug the test after the first run due to an incorrect web element selector. (..happened twice in a row with 2 different tests)  
+Why does this happen? AI often guesses selectors that might work, based on common patterns, after my question:  
+I had to fix 1st selector, ('input[name="q"], input#query-builder-test') there is no such selector for the search box, would you call this a case of hallucination?  
+ 
+(AI's answer) :   
+<img width="915" height="670" alt="image" src="https://github.com/user-attachments/assets/12111db9-2a09-4720-b70a-1e0062792b75" />
+
 		
+(explained in AI's own words) : 
+<img width="902" height="593" alt="image" src="https://github.com/user-attachments/assets/1b10e062-9fb1-407f-9289-564606ede6c2" />
+
+
+A few more useful advices for you who are going to automate with AI:   The wiser the prompt, the better the output code as a result will be!!! Make thoughtful, precise prompts from the beginning so you dont have to change the entire script afterwards like I did, Implement POM pattern, use getter methods for locators, divide SearchPage and ResultsPage (they were the part of the same class) + other small corrections. 
+After my initial prompt numerous changes followed:    
+1. Implement POM pattern  
+2. use getter methods for locators  
+3. divide SearchPage and ResultsPage (they were the part of the same class)    
+
+
+
+
 
 
