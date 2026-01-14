@@ -11,15 +11,15 @@ npm / yarn / pnpm
 Playwright (npm install playwright)
 
 ## To Run This:
-	bash
-	node advanced-automation.js
-	It will:
-		1. Open GitHub search
-		2. Search for "playwright automation"
-		3. Extract results from UI
-		4. Capture API calls in background
-		5. Compare frontend data vs backend responses
-		6. Generate a complete test report
+bash
+node advanced-automation.js
+It will:
+	1. Open GitHub search
+	2. Search for "playwright automation"
+	3. Extract results from UI
+	4. Capture API calls in background
+	5. Compare frontend data vs backend responses
+	6. Generate a complete test report
     7. Save screenshot as proof
 
 ## Features or What This Script Does:
@@ -44,16 +44,15 @@ Playwright (npm install playwright)
 5. Reporting 📄
 	• Saves complete test report as JSON
 	• Takes screenshots for evidence
-Generates summary of findings
-<img width="733" height="550" alt="image" src="https://github.com/user-attachments/assets/ea7a0dbe-9e34-4c15-a822-1d31b7a2862c" />
+    • Generates summary of findings
 
 ## Real-World Use Cases:
-		This pattern is used for:
-			• E-commerce testing - Verify prices match between UI and API
-			• Form submissions - Check if backend receives correct data
-			• Search functionality - Validate search results consistency
-			• Payment flows - Ensure transaction data is accurate
-API contract testing - Verify frontend consumes API correctly<img width="613" height="158" alt="image" src="https://github.com/user-attachments/assets/b7fc6e67-a108-411e-990f-08ddc9c77883" />
-
+This pattern is used for:
+• E-commerce testing - Verify prices match between UI and API
+• Form submissions - Check if backend receives correct data
+• Search functionality - Validate search results consistency
+• Payment flows - Ensure transaction data is accurate
+• API contract testing - Verify frontend consumes API correctly
+		
 
 
